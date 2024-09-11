@@ -1,23 +1,25 @@
-# baseURL = "https://your_domain.com/"
+baseURL = "https://www.souls-music.com"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Lynx"
+title = "Soul's Whisper Music"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params.author]
-  # name = "Your name here"
-  # headline = "An awesome person"
+  name = "Soul's Whisper Band"
+  headline = "An awesome person"
   # image = "img/author.jpg"  # path relative to static directory
 
   links = [
     # { email = "mailto:hello@your_domain.com" },
-    # { link = "https://link-to-some-website.com/" },
+    { link = { href = "https://play.souls-music.com/chapter/1", text = "Play Music",target = "_self" } },
+    { youtube = "https://youtube.com/username" },
+    { spotify = "https://spotify.com/user/username" },
+    { apple = { href = "https://www.apple.com", text = "Apple Music" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
-    # { apple = "https://www.apple.com" },
     # { bandcamp = "https://username.bandcamp.com" },
     # { bluesky = "https://bsky.app/profile/username" },
     # { codepen = "https://codepen.io/username" },
@@ -44,7 +46,6 @@ disableKinds = ["taxonomy", "term"]
     # { slack = "https://workspace.url/team/userid" },
     # { snapchat = "https://snapchat.com/add/username" },
     # { soundcloud = "https://soundcloud.com/username" },
-    # { spotify = "https://spotify.com/user/username" },
     # { stack-exchange = "https://stackexchange.com/users/userid/username" },
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
     # { steam = "https://steamcommunity.com/profiles/userid" },
@@ -56,7 +57,6 @@ disableKinds = ["taxonomy", "term"]
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { x = "https://x.com/username" },
-    # { youtube = "https://youtube.com/username" },
   ]
 
 [module]
